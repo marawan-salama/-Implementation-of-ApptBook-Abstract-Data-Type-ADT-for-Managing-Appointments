@@ -104,7 +104,6 @@ public class ApptBook implements Cloneable {
 	 *                                     Appointment[initialCapacity].
 	 **/
 	public ApptBook(int initialCapacity) {
-		// TODO: Implemented by student.
 		if (initialCapacity < 0)
 			throw new IllegalArgumentException();
 		data = new Appointment[initialCapacity];
